@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Fanuc</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% block header %}
+    <header>
+        <div class="title">
+            <h1>This is a RoboGuide Presentation</h1>
+        </div>
+    </header>
+    {% endblock %}
+
+
+    {% block main %}
+    <main>
+        <button onclick="fetch('/src/app.py/run_cuadrado')", class="btn_square">Ejecutar Cuadrado</button>
+        <button onclick="fetch('/src/app.py/run_circulo')",  class="btn_circle">Ejecutar Circulo</button>
+    </main>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,36 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn_square {
+    padding: 14px 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: box-shadow 0.3s ease-in-out;
+    background: #053147;
+    position: relative;
+    top: 30%;
+    left: 60%;
+    text-align: center;
+}
+
+
+
+.btn_circle {
+    padding: 14px 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: box-shadow 0.3s ease-in-out;
+    background: #053147;
+    position: relative;
+    top: 50%;
+    left: 60%;
+    text-align: center;
+}
